@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+
+}
+
+.header {
+    background-color: black;
+    padding: 30px;
+    margin-bottom: 35px;
+}
+
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+.search-btn{
+    background:unset;
+    border: none;
+    cursor: pointer;
+    margin-left: 7px;
+}
+.burger{
+    background:unset;
+    border: none;
+    cursor: pointer; 
+    display: none;
+}
+h3 span {
+    background-color: #4A90E2;
+    padding: 3px 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+
+.col-4 {
+    width: 33.33%;
+    padding: 15px;
+}
+
+.col-12 {
+    width: 100%;
+    padding: 15px;
+
+}
+
+.box {
+    height: 265.5px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+h5{
+    width: 363px;
+}
+
+.first-img {
+    background: url(../assets/Bitmap.jpg) no-repeat center/cover;
+    height: 561px;
+}
+
+.second-img {
+    background: url(../assets/secondimg.jpg) no-repeat center/cover;
+}
+
+.third-img {
+    background: url(../assets/thirdimg.png) no-repeat center/cover;
+}
+
+.fourth-img {
+    background: url(../assets/fourthimg.png) no-repeat center/cover;
+}
+
+.fifth-img {
+    background: url(../assets/fifthimg.png) no-repeat center/cover;
+}
+
+.vehicle-btn {
+    background: #4A90E2;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 12px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    position: absolute;
+    top: 30px;
+    left: -67px;
+    transition: 0.6s;
+    cursor: pointer;
+
+}
+.box:hover .vehicle-btn{
+    left: 22px;
+}
+
+.titlecar {
+    position: absolute;
+    bottom: 25px;
+    left: -480px;
+    color: white;
+    transition: 0.6s;
+}
+.box:hover .titlecar{
+    left: 22px;
+}
+.titlecar p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.titlecar h5 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.firstcartitle {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.vehicle-btn:hover {
+    background-color: #0c2d51;
+}
+
+.morecars{
+    background: url(../assets/carone.png) no-repeat center/cover;
+    height: 740px;
+    width: 1070px;
+    border-radius: 5px;
+    margin: 80px auto;
+}
+
+.doublediv {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 1030px;
+    height: 349px;
+    margin: -220px auto;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 13px 0px rgba(34, 60, 80, 0.2);
+  
+
+}
+
+.morecars-btn {
+    background-color: #4A90E2;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 24px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.morecars-btn:hover{
+    background-color: #0c2d51;
+}
+
+.morecarstitle{
+    position: absolute;
+    left: 30px;
+    top: 72px;
+    right: 106px;
+}
+
+.morecarstitle h1{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #171717;
+    padding: 15px 0;
+}
+
+.rickie-p{
+    font-family: 'PT Sans Italic', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    padding-bottom: 15px;
+    color: #666666;
+}
+.morecarstitle p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #666666;
+}
+.morecarstwo {
+    background: url(../assets/morecarstwo.png) no-repeat center/cover;
+    height: 740px;
+    width: 1070px;
+    border-radius: 5px;
+    margin: 80px auto;
+}
+
+.morecarsthree{
+    background: url(../assets/three.png) no-repeat center/cover;
+    height: 740px;
+    width: 1070px;
+    border-radius: 5px;
+    margin: 80px auto;
+}
+.morecarsfour{
+    background: url(../assets/four.png) no-repeat center/cover;
+    height: 740px;
+    width: 1070px;
+    border-radius: 5px;
+    margin: 80px auto;
+}
+.morecarsfive{
+    background: url(../assets/five.png) no-repeat center/cover;
+    height: 740px;
+    width: 1070px;
+    border-radius: 5px;
+    margin: 80px auto;
+}
+
+.col-3{
+    width: 25%;
+    padding: 15px;
+}
+.mostpopular-h{
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 27px ;
+}
+
+.colthreebox{
+    height: 364px;
+}
+.imgbutton{
+    position: relative;
+}
+.imgbutton img{
+    border-radius: 3px;
+}
+.bmwbtn{
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #4A90E2;
+    padding: 4px 18px;
+    border: none;
+    color:#fff;
+    border-radius: 3px;
+    font-size: 12px;
+
+}
+.bmw-p{
+    font-family: 'PT Sans Italic', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #666666;
+}
+.bmw-h{
+    font-family: 'PT Sans Italic', sans-serif;
+    font-size: 18px;
+    width: 270px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+.blacksection{
+    background-color: #171717;
+    color: #fff;
+    padding-top: 62px;
+}
+
+.flex-p{
+    font-family: 'PT Sans', sans-serif;
+    color: #CECECE;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 28px;
+    margin-bottom: 64px;
+    width: 270px;
+}
+
+h2{
+    font-size: 20px;
+    font-family:'PT Sans', sans-serif ;
+    font-weight: 700;
+}
+.icons svg{
+    margin-top: 23px;
+    margin-right: 15px;
+}
+.flexbox{
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+.mini-img{
+    width: 95px;
+    height: 95px;
+}
+.mini-h{
+    font-family: 'PT Sans', sans-serif ;
+    font-size: 15px;
+    width: 178px;
+    line-height: 26px;
+}
+ .mini-p{
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #CECECE;
+    margin-top: 13px;
+
+ }
+.itsbox{
+    height: 390px;
+}
+
+.inputflex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 38px;
+}
+input{
+    width: 270px;
+    height: 50px;
+    background-color: #373737;
+    border: none;
+    padding: 15px;
+    color: #fff;
+}
+.darkbutton{
+    background-color: #232323;
+    padding: 15px 60px;
+    color: #FFFFFF;
+    border: none;
+    width: 270px;
+    height: 50px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+.darkbutton:hover{
+    background-color:#484848;
+}
+footer{
+    background-color: black;
+    height: 94px;
+    padding-top: 39px;
+}
+.footershooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footershooter p{
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+footer a{
+    font-size: 14px;
+}
+.spantwo {
+    background-color: #4A90E2;
+    padding: 3px 5px;
+    border-radius: 3px;
+    margin-left: 7px;
+}
+.footer-btn{
+    display: none;
+    background: unset;
+    border: none;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+

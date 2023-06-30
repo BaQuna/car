@@ -1,0 +1,208 @@
+@media(max-width:1400px) {
+    .header {
+        position: sticky;
+        top: 0;
+        z-index: 22;
+    }
+}
+@media (max-width:1200px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .together {
+        width: unset;
+        height: 615px;
+    }
+
+    .doublediv {
+        width: unset;
+        margin: -270px 20px;
+        margin-bottom: 100px;
+    }
+}
+@media(max-width: 1050px) {
+    .doublediv {
+        height: 395px;
+    }
+}
+@media(max-width: 1000px) {
+    .col-4-sm {
+        width: 50%;
+    }
+    .col-12-sm {
+        width: 100%;
+    }
+    .col-6-sm {
+        width: 50%;
+        padding: 15px;
+    }
+    .morecarstitle {
+        font-size: 30px;
+        right: 40px;
+    }
+    .doublediv {
+        height: 350px;
+    }
+}
+@media (max-width:930px) {
+    .morecarstitle p {
+        font-size: 22px;
+    }
+    .col-4-input {
+        width: 50%;
+    }
+    .morecarstitle h1 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:805px) {
+    .morecarstitle p {
+        font-size: 20px;
+        line-height: normal;
+    }
+    .morecarstitle h1 {
+        font-size: 2opx;
+    }
+    .col-3 {
+        width: 50%;
+    }
+    h5 {
+        width: unset;
+    }
+}
+
+@media (max-width:770px) {
+    .together {
+        height: 450px;
+    }
+    .links {
+        display: none;
+    }
+    .search-btn {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .footer-btn {
+        display: block;
+    }
+    .footernav {
+        display: none;
+    }
+    .doublediv {
+        margin: -225px 20px;
+        margin-bottom: 65px;
+    }
+    .titlecar {
+        font-size: 18px;
+    }
+}
+@media (max-width:640px) {
+    .doublediv {
+        height: 300px;
+    }
+    .morecarstitle p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .morecarstitle h1 {
+        font-size: 20px;
+    }
+    .col-4-input {
+        width: 100%;
+    }
+    .premiumbox{
+        margin-bottom: -90px;
+    }
+    .together {
+        height: 312px;
+    }
+    .doublediv {
+        margin: -170px 20px;
+        margin-bottom: -45px;
+    }
+    .mostpopular-h {
+        margin-top: 75px;
+    }
+}
+
+@media(max-width:540px) {
+    .col-3 {
+        width: 100%;
+    }
+    .col-4-sm {
+        width: 100%;
+    }
+
+    .col-6-sm {
+        width: 100%
+    }
+    .morecars-btn {
+        padding: 10px 15px;
+        top: 15px;
+        left: 15px;
+        font-size: 10px;
+    }
+
+    .morecarstitle {
+        top: 38px;
+        left: 15px;
+    }
+    .morecarstitle h1 {
+        font-size: 18px;
+    }
+    .morecarstitle p {
+        font-size: 12px;
+    }
+    .doublediv {
+        margin: -163px 20px;
+        margin-bottom: -45px;
+        height: 248px;
+    }
+    .together {
+        height: 250px;
+    }
+}
+    @media (max-width:435px) {
+
+        .morecarstitle p {
+            font-size: 12px;
+            line-height: normal;
+        }
+
+        .doublediv {
+            margin: -170px 20px;
+            margin-bottom: -45px;
+        }
+
+        .together {
+            height: 250px;
+        }
+    }
+
+    @media(max-width:395px) {
+        .morecarstitle h1 {
+            font-size: 18px;
+        }
+        .together {
+            height: 210px;
+        }
+        .morecars-btn {
+            padding: 8px 14px;
+            top: 12px;
+            left: 12px;
+            font-size: 8px;
+        }
+        .morecarstitle {
+            top: 33px;
+            left: 12px;
+        }
+        .doublediv {
+            margin: -130px 20px;
+            margin-bottom: -45px;
+            height: 245px;
+        }
+    }
